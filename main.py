@@ -1,8 +1,6 @@
 import flet as ft
 from green_life_ai import recommend_trees_for_location, diagnose_plant_chat
 
-# Paste your free key from Google AI Studio below (or leave as-is to test Offline AI)
-MY_GEMINI_API_KEY = "PASTE_YOUR_GEMINI_API_KEY_HERE"
 
 def main(page: ft.Page):
     page.title = "Green Life"

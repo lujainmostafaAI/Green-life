@@ -210,11 +210,10 @@ def main(page: ft.Page):
             border_radius=8
         )
 
-        page.add(header, status_bar, tabs)
+        page.add(header, status_bar, 
 
-    # =========================================================================
-    # SCREEN 2: 20 L.E. / MONTH SUBSCRIPTION PAYWALL
-    # =========================================================================
+    # SCREEN 2: 20 L.E. / MONTH SUBSCRIPTION 
+
     def show_payment_screen():
         page.clean()
 
